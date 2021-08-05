@@ -14,6 +14,7 @@ import dbproject.dominio.Usuario;
 public class Aluno extends Usuario {
 
     public Aluno() {
+        this.cargo = Hierarquia.aluno;
     }
 
     public String getNome() {
